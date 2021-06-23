@@ -1,4 +1,15 @@
 /*Aqui va el comentario */
+/*
+Rosa: #C6246E
+Morado: #642B73
+Negro: #999
+Gris: #f5f5f5
+*/
+.container {
+  background: #642b73;
+  background: -webkit-linear-gradient(to right, #c6426e, #642b73);
+  background: linear-gradient(to right, #c6426e, #642b73);
+}
 
 .red {
   height: 200px;
