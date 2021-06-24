@@ -5,6 +5,10 @@ Morado: #642B73
 Negro: #999
 Gris: #f5f5f5
 */
+html {
+  font-family: "Nunito", sans-serif;
+}
+
 .container {
   background: #642b73; /* Respaldo */
   background: -webkit-linear-gradient(to right, #c6426e, #642b73);
