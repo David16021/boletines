@@ -4,9 +4,20 @@ Rosa: #C6246E
 Morado: #642B73
 Negro: #999
 Gris: #f5f5f5
+Rosa: #d500f9
 */
 html {
   font-family: "Nunito", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #d500f9;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .container {
@@ -26,6 +37,10 @@ html {
   background-color: #fff;
 }
 
+.paragraph {
+  line-height: 1.8em;
+  font-weight: 300;
+}
 .red {
   height: 200px;
   width: 100px;
