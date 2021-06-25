@@ -41,15 +41,22 @@ a {
   line-height: 1.8em;
   font-weight: 300;
 }
-.red {
-  height: 200px;
-  width: 100px;
-  background-color: red;
-}
-#boton-pago {
-  background-color: yellow;
+
+.fa-star {
+  color: #ffc400;
 }
 
-td {
-  border: solid 1px;
+.table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.table td,
+.table th {
+  padding: 1em;
+  text-align: left;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f3e5f5;
 }
