@@ -65,8 +65,16 @@ a {
 }
 
 .title-item {
-  border-bottom-style: solid;
+  /*border-bottom-style: solid;
   border-width: 2px;
-  border-color: #c6426e;
+  border-color: #c6426e;*/
+  border-bottom: solid 2px #c6426e;
   padding-bottom: 1em;
+}
+
+.position {
+  background-color: #c6426e;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
 }
