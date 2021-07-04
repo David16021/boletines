@@ -44,6 +44,7 @@ a:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border-radius: 4px;
   position: relative;
+  padding: 1.8em;
 }
 
 .actions {
@@ -95,8 +96,21 @@ a:hover {
   /*border-bottom-style: solid;
   border-width: 2px;
   border-color: #c6426e;*/
+  font-size: 2em;
   border-bottom: solid 2px #c6426e;
   padding-bottom: 1em;
+}
+
+.address {
+  font-weight: bold;
+  color: #642b73;
+  font-size: 1.2em;
+}
+
+.main-image {
+  float: left;
+  margin-right: 1em;
+  height: 250px;
 }
 
 .position {
@@ -104,6 +118,7 @@ a:hover {
   color: white;
   padding: 10px;
   border-radius: 4px;
+  margin-right: 0.5em;
 }
 
 .animate__fadeInDown {
